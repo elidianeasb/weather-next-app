@@ -11,7 +11,7 @@ export async function GET(request: any) {
     if(address) {
         url = `https://api.openweathermap.org/data/2.5/weather?q=${address}&appid=${API_key}`
     } else {
-        url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid={API key}`
+        url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_key}`
     }
 
     const response = await fetch(url);

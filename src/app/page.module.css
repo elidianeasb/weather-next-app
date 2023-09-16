@@ -19,7 +19,6 @@
     width: 500px;
     transform: translate(-50%, -50%);
     background: linear-gradient(120deg, #c547ff, #442bb2);
-    cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
 }
@@ -29,11 +28,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .weatherLocation button {
-    background: #080705;
+    background: #1b0870de;
     color: #ffff;
     border: 1px solid transparent;
 }
@@ -70,6 +69,10 @@
     width: 80px;
     height: 40px;
     border-radius: 50px;
+}
+
+.search_button:hover {
+    cursor: pointer;
 }
 
 .icon_and_weatherInfo {
