@@ -90,7 +90,7 @@ export default function Home() {
                 <div className={styles.weatherInfo}>
                   <div className={styles.temperature}>
                     <span>
-                      {(weatherData.main.temp - 273.5).toFixed(2) + String.fromCharCode(176)}
+                      {(weatherData.main.temp - 273.5).toFixed(0)}°C
                     </span>
                   </div>
                   <div className={styles.weatherCondition}>
